@@ -9,7 +9,7 @@ function allclear(){
 function Eval(){
     result.value=eval(result.value)
 }
-function bckspace(){
+function backspace(){
     data=result.value
     result.value=data.slice(0,-1)
 }
